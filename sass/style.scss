@@ -6,28 +6,16 @@
     font-family: "Anton SC", sans-serif;
     color: #ffffff;
 }
-<<<<<<< HEAD
 .body1{
     display: grid;
     grid-template-columns:repeat(12,1fr);
     grid-template-rows:150px 850px 1000px 850px 150px;
-=======
-h1{
-    font-size: 5.9375rem;
-}
-
-.body1{
-    display: grid;
-    grid-template-columns:repeat(12,1fr);
-    grid-template-rows:9.375rem 53.125rem 62.5rem 53.125rem 9.375rem;
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 header{
     display:flex ;
     justify-content:space-between;
     align-items: center;
-<<<<<<< HEAD
 }
 header img{
     object-fit: contain;
@@ -40,25 +28,12 @@ nav div ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-=======
-    grid-column: 1/13;
-    grid-row: 1/4;
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(3,3.125rem);
-    img{
-        object-fit: contain;
-        grid-column: 2/4;
-        grid-row: 2/4;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 nav{
     grid-row:3/4 ;
     grid-column: 5/12;
     justify-self: end;
 }
-<<<<<<< HEAD
 
 
 nav #toggle, nav label{
@@ -79,21 +54,6 @@ nav #toggle, nav label{
 .degrade1{
     width:100% ;
     height: 250px;
-=======
-.navbar{
-    display: flex;
-    list-style-type: none;
-    gap: 1.25rem;
-    font-size: 1.875rem;
-    li a{
-        text-decoration: none;
-        color: #ffffff;
-    }
-}
-.degrade1{
-    width:100vw ;
-    height: 15.625rem;
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
     background: linear-gradient(to top, black, transparent);
     grid-row: 12/17;
     grid-column: 1/13;
@@ -101,40 +61,24 @@ nav #toggle, nav label{
 
 .degrade2{
     width:100% ;
-<<<<<<< HEAD
     height: 250px;
-=======
-    height: 15.625rem;
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
     background: linear-gradient(to bottom, black, transparent);
     grid-row: 1/6;
     grid-column: 1/13;
 }
 
 .linea1{
-<<<<<<< HEAD
     height: 2px;
     background-color: #ffffff;
     margin: 0px;
-=======
-    height: .125rem;
-    background-color: #ffffff;
-    margin: 0;
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
     width: 100%;
     grid-row: 4;
     grid-column: 2/12;
 }
 .linea2{
-<<<<<<< HEAD
     height: 2px;
     background-color: #ffffff;
     margin: 0px;
-=======
-    height: .125rem;
-    background-color: #ffffff;
-    margin: 0;
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
     width: 100%;
     grid-row: 17;
     grid-column: 2/12;
@@ -142,15 +86,9 @@ nav #toggle, nav label{
 }
 
 .linea3{
-<<<<<<< HEAD
     height: 2px;
     background-color: #ffffff;
     margin: 0px;
-=======
-    height: .125rem;
-    background-color: #ffffff;
-    margin: 0;
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
     width: 100%;
     grid-row: 38;
     grid-column: 2/12;
@@ -158,15 +96,9 @@ nav #toggle, nav label{
 }
 
 .linea4{
-<<<<<<< HEAD
     height: 2px;
     background-color: #ffffff;
     margin: 0px;
-=======
-    height: .125rem;
-    background-color: #ffffff;
-    margin: 0;
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
     width: 100%;
     grid-row: 18;
     grid-column: 2/12;
@@ -178,20 +110,13 @@ nav #toggle, nav label{
     grid-column: 1/13;
     display: grid;
     grid-template-columns:repeat(12,1fr);
-<<<<<<< HEAD
     grid-template-rows: repeat(40,50px);
     background-image: url(../assets/index.img.jpg);
     background-size:100vw 1000px ;
-=======
-    grid-template-rows: repeat(40,3.125rem);
-    background-image: url(../assets/index.img.jpg);
-    background-size:100vw 62.5rem ;
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
     background-position: top;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 header{
     grid-column: 1/13;
     grid-row: 1/4;
@@ -199,20 +124,13 @@ header{
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3,50px);
 }
-=======
-
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 
 .main1{
     grid-column: 1/13;
     grid-row: 4/38;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-<<<<<<< HEAD
     grid-template-rows: repeat(37,50px);
-=======
-    grid-template-rows: repeat(37,3.125rem);
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
     
 }
 .section1{
@@ -220,7 +138,6 @@ header{
     grid-row: 1/17;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-<<<<<<< HEAD
     grid-template-rows: repeat(16,50px);
 }
 
@@ -231,18 +148,6 @@ header{
     grid-column: 2/12;
     grid-row: 2/12;
     text-align: center;
-=======
-    grid-template-rows: repeat(16,3.125rem);
-    h1{
-        padding: 0%;
-        margin: 0%;
-        font-size: 5.9375rem;
-        grid-column: 3/11;
-        grid-row: 4/7;
-        white-space: nowrap;
-        text-align: center;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .section2{
@@ -251,7 +156,6 @@ header{
     background-color: black;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-<<<<<<< HEAD
     grid-template-rows: repeat(21,50px);
 }
 .section2 h2{
@@ -267,22 +171,6 @@ header{
     font-size: 2rem;
     text-align: justify;
     align-self: center;
-=======
-    grid-template-rows: repeat(21,3.125rem);
-    h2{
-        font-size: 4rem;
-        grid-column: 5/9;
-        grid-row: 2/3;
-        text-align: center;
-    }
-    p{
-        grid-column: 3/11;
-        grid-row: 4/9;
-        font-size: 2rem;
-        text-align: justify;
-        align-self: center;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .img1 {
@@ -292,17 +180,6 @@ header{
     gap: 5rem; /* Espacio entre las imágenes */
     flex-wrap: wrap; /* Permite que las imágenes se ajusten en múltiples filas si es necesario */
     justify-content: center; /* Centra las imágenes en el contenedor */
-<<<<<<< HEAD
-=======
-    img {
-        max-width: 100vw;
-        width: 15.625rem;
-        height: 25rem;
-        display: block; /* Elimina los espacios debajo de la imagen */
-        border: .0625rem solid white;
-    }
-    
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .img-container {
@@ -310,7 +187,6 @@ header{
     display: inline-block; /* Hace que el contenedor ajuste al tamaño de la imagen */
 }
 
-<<<<<<< HEAD
 .img1 img {
     max-width: 100%;
     width: 15.625rem;
@@ -319,8 +195,6 @@ header{
     border: 1px solid white;
 }
 
-=======
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 .button {
     position: absolute;
     bottom: 15%; /* Coloca el botón cerca de la parte inferior de la imagen */
@@ -329,7 +203,6 @@ header{
     
     background-color: rgba(255, 255, 255, 0.0); /* Fondo transparente */
     color: white; /* Texto blanco */
-<<<<<<< HEAD
     border: 2px solid white; /* Bordes blancos */
     padding: 5px 20px; /* Espaciado interno del botón */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
@@ -345,30 +218,12 @@ header{
 
 
 
-=======
-    border: .125rem solid white; /* Bordes blancos */
-    padding: .3125rem 1.25rem; /* Espaciado interno del botón */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    text-transform: uppercase; /* Convierte el texto a mayúsculas */
-    letter-spacing: .0625rem; /* Espaciado entre letras */
-    white-space: nowrap;
-    font-size: 1.25rem;
-    &:hover {
-        background-color: rgba(255, 255, 255, 0.2); /* Fondo ligeramente blanco al pasar el cursor */
-    }
-}
-
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 .container2{
     grid-row: 4/6;
     grid-column: 1/13; 
     display: grid;
     grid-template-columns:repeat(12,1fr);
-<<<<<<< HEAD
     grid-template-rows: repeat(21,50px);
-=======
-    grid-template-rows: repeat(21,3.125rem);
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
     background-image: url(../assets/index.img2.avif);
     background-size:100vw 1000px ;
 }
@@ -378,7 +233,6 @@ header{
     grid-column: 1/13;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-<<<<<<< HEAD
     grid-template-rows: repeat(17,50px);
 }
 .section3 h2{
@@ -405,38 +259,12 @@ header{
     border: 2px solid white;
 }
 
-=======
-    grid-template-rows: repeat(17,3.125rem);
-    h2{
-        grid-row: 3/4;
-        grid-column: 2/12;
-        font-size: 4rem;
-        align-self: center;
-        text-align: center;
-    }
-    div{
-        display: flex;
-        grid-column: 2/12;
-        grid-row: 8/16;
-        gap: 5rem; /* Reduce el espacio entre las imágenes para acomodar mejor en pantallas pequeñas */
-        flex-wrap: wrap; /* Permite que las imágenes se ajusten en múltiples filas si es necesario */
-        justify-content: center;
-        img{
-            max-width: 100vw;
-            width: 15.625rem;
-            height: 25rem;
-            border: .125rem solid white;
-        }
-    }
-}
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 
 .footer1{
     grid-row: 18/21;
     grid-column: 1/13;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-<<<<<<< HEAD
     grid-template-rows: repeat(3,50px);
 }
 
@@ -453,23 +281,6 @@ header{
     max-width: 100%;
     width: 4rem;
     height: 4rem;
-=======
-    grid-template-rows: repeat(3,3.125rem);
-    ul{
-        list-style-type: none;
-        display: flex;
-        grid-column: 2/12;
-        grid-row: 2/3;
-        gap: 5rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        li a img{
-            max-width: 100%;
-            width: 4rem;
-            height: 4rem;
-        }
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 /*ACA EMPIEZA EL CSS DE LA PAGINA NOSOTROS*/
@@ -504,7 +315,6 @@ header{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(19,50px);
-<<<<<<< HEAD
 }
 
 .mainNosotros h1{
@@ -518,19 +328,6 @@ header{
     grid-row: 6/12;
     text-align: justify;
     font-size: 2rem;
-=======
-    h1{
-        grid-column: 3/11;
-        grid-row: 2/4;
-        text-align: center;
-    }
-    p{
-        grid-column: 2/12;
-        grid-row: 6/12;
-        text-align: justify;
-        font-size: 2rem;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .degradeNosotros{
@@ -558,7 +355,6 @@ header{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3,50px);
-<<<<<<< HEAD
 }
 
 .footer2 ul{
@@ -574,22 +370,6 @@ header{
     max-width: 100%;
     width: 4rem;
     height: 4rem;
-=======
-    ul{
-        list-style-type: none;
-        display: flex;
-        grid-column: 2/12;
-        grid-row: 2/3;
-        gap: 5rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        li a img{
-            max-width: 100%;
-            width: 4rem;
-            height: 4rem;
-        }
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 /*ACA EMPIEZA EL CSS DE LA PAGINA PRECIOS*/
@@ -609,7 +389,6 @@ header{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(19,50px);
-<<<<<<< HEAD
 }
 
 .mainPrecios h1{
@@ -619,16 +398,6 @@ header{
     z-index: 10;
     text-align: center;
     align-self: center;
-=======
-    h1{
-        font-size:95px ;
-        grid-row: 4/6;
-        grid-column: 5/9;
-        z-index: 10;
-        text-align: center;
-        align-self: center;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .lineaPrecios1{
@@ -660,13 +429,8 @@ header{
     grid-column: 2/12;
     grid-row: 10/20;
     display: flex;
-<<<<<<< HEAD
     justify-content: center;
     gap: 200px;
-=======
-    justify-content: space-around;
-    gap: 80px;
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
     z-index: 10;
 }
 
@@ -678,7 +442,6 @@ header{
     text-align: center;
     letter-spacing: 1px;
     position: relative;
-<<<<<<< HEAD
 }
 
 .pricing-plan h2 {
@@ -725,46 +488,6 @@ header{
     color: black;
 }
 
-=======
-    h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-        text-align: justify;
-    }
-    h3{
-        text-align: justify;
-    }
-    p {
-        font-size: 40px;
-        margin: 10px 0;
-        text-align: justify;
-    }
-    ul {
-        padding: 20px;
-        text-align: left;
-        li {
-            margin-bottom: 0px;
-            font-size: 16px;
-        }
-    }
-    button {
-        position: absolute; /* Permite posicionar el botón en relación con su contenedor */
-        bottom: 20px; /* Mantiene el botón a 5px del borde inferior del contenedor */
-        left: 50%;
-        transform: translateX(-50%); /* Centra el botón horizontalmente */
-        background-color: black;
-        color: white;
-        border: 2px solid white;
-        padding: 5px 30px;
-        font-size: 16px;
-        cursor: pointer;
-        &:hover {
-            background-color: rgb(255, 255, 255);
-            color: black;
-        }
-    }
-}
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 /*ACA EMPIEZA EL CSS DE LA PAGINA CONTACO*/
 
 .body4{
@@ -782,15 +505,6 @@ header{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(21,50px);
-<<<<<<< HEAD
-=======
-    h1{
-        grid-row: 3/5;
-        grid-column: 5/9;
-        text-align: center;
-        align-self: center;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .background2{
@@ -818,7 +532,6 @@ header{
     z-index: 10;
 }
 
-<<<<<<< HEAD
 .mainContacto h1{
     grid-row: 3/5;
     grid-column: 5/9;
@@ -826,8 +539,6 @@ header{
     align-self: center;
 }
 
-=======
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 .formContacto {
     grid-column: 2/12;
     grid-row: 8/21;
@@ -880,14 +591,6 @@ textarea {
     border: 2px solid white;
     font-size: 30px;
     border-radius: 5px;
-<<<<<<< HEAD
-=======
-    cursor: pointer;
-    &:hover{
-        background-color: rgb(255, 255, 255);
-        color: black;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 /*ACA EMPIEZA EL CSS DE LA PAGINA RECORRIDO*/
@@ -939,20 +642,12 @@ textarea {
     grid-column: 2/3;
     z-index: 10;
     align-self: center;
-<<<<<<< HEAD
 }
 
 .dayNumber h2{
     font-size: 200px;
     letter-spacing: 10px;
     color: rgb(100, 100, 100);
-=======
-    h2{
-        font-size: 200px;
-        letter-spacing: 10px;
-        color: rgb(100, 100, 100);
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .imageContainer{
@@ -962,15 +657,6 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
-=======
-    img{
-        max-width: 37.5rem;
-        height: 700px;
-        width: 600px;
-        border: 1px solid white;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .itinerary{
@@ -981,7 +667,6 @@ textarea {
     text-align: justify;
 }
 
-<<<<<<< HEAD
 .imageContainer img{
     max-width: 37.5rem;
     height: 700px;
@@ -989,8 +674,6 @@ textarea {
     border: 1px solid white;
 }
 
-=======
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 .lineaRecorrido1{
     height: 2px;
     background-color: #ffffff;
@@ -1018,7 +701,6 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
 }
 
 .imagenChalten img{
@@ -1026,14 +708,6 @@ textarea {
     height: 700px;
     width: 600px;
     border: 1px solid white;
-=======
-    img{
-        max-width: 37.5rem;
-        height: 700px;
-        width: 600px;
-        border: 1px solid white;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .itinerary2{
@@ -1048,20 +722,12 @@ textarea {
     grid-row: 32/36;
     grid-column: 11/12;
     z-index: 10;
-<<<<<<< HEAD
 }
 
 .dayNumber2 h2{
     font-size: 200px;
     letter-spacing: 10px;
     color: rgb(100, 100, 100);
-=======
-    h2{
-        font-size: 200px;
-        letter-spacing: 10px;
-        color: rgb(100, 100, 100);
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .lineaRecorrido3{
@@ -1081,7 +747,6 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
 }
 
 .imagenBolson img{
@@ -1089,14 +754,6 @@ textarea {
     height: 700px;
     width: 600px;
     border: 1px solid white;
-=======
-    img{
-        max-width: 37.5rem;
-        height: 700px;
-        width: 600px;
-        border: 1px solid white;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .itinerary3{
@@ -1112,7 +769,6 @@ textarea {
     grid-row: 49/54;
     grid-column: 2/3;
     z-index: 10;
-<<<<<<< HEAD
     
 }
 
@@ -1120,13 +776,6 @@ textarea {
     font-size: 200px;
     letter-spacing: 10px;
     color: rgb(100, 100, 100);
-=======
-    h2{
-        font-size: 200px;
-        letter-spacing: 10px;
-        color: rgb(100, 100, 100);
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .lineaRecorrido4{
@@ -1146,7 +795,6 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
 }
 
 .imagenVla img{
@@ -1154,14 +802,6 @@ textarea {
     height: 700px;
     width: 600px;
     border: 1px solid white;
-=======
-    img{
-        max-width: 37.5rem;
-        height: 700px;
-        width: 600px;
-        border: 1px solid white;
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .itinerary4{
@@ -1177,7 +817,6 @@ textarea {
     grid-row: 66/70;
     grid-column: 11/12;
     z-index: 10;
-<<<<<<< HEAD
     
 }
 
@@ -1185,13 +824,6 @@ textarea {
     font-size: 200px;
     letter-spacing: 10px;
     color: rgb(100, 100, 100);
-=======
-    h2{
-        font-size: 200px;
-        letter-spacing: 10px;
-        color: rgb(100, 100, 100);
-    }
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
 
 .lineaRecorrido5{
@@ -1202,7 +834,6 @@ textarea {
     grid-row: 81;
     grid-column: 7/12;
     z-index: 8;
-<<<<<<< HEAD
 }
 
 /*-----------------------------------------------------------*/
@@ -1593,6 +1224,4 @@ textarea {
         height: 285px;
         border: 2px solid white;
     }
-=======
->>>>>>> f64a6afca33d6e5baaabbd8954c3f2d07074f51b
 }
